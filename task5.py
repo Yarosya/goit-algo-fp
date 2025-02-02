@@ -2,7 +2,6 @@ import uuid
 import networkx as nx
 import matplotlib.pyplot as plt
 from collections import deque
-
 class Node:
     def __init__(self, key, color="#CCCCCC"):
         self.left = None
